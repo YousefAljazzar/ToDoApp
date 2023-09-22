@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Button from "../button";
 import { FaTrashAlt } from "react-icons/fa";
+import "./style.css";
 function RowItem({ item, handelDelete }) {
   const [completed, setCompleted] = useState(item.completed);
 
