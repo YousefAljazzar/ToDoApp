@@ -12,19 +12,21 @@ function TodoCard({ data, setData }) {
           <th>Status</th>
           <th>Close</th>
         </tr>
-
-        {data.map((item) => {
-          return (
-            <RowItem
-              item={item}
-              handelDelete={() => {
-                const filted = data.filter((el) => el.id !== item.id);
-                console.log(filted);
-                setData(filted);
-              }}
-            />
-          );
-        })}
+        <tbody>
+          {data.map((item) => {
+            return (
+              <RowItem
+                key={item.id}
+                item={item}
+                handelDelete={() => {
+                  const filted = data.filter((el) => el.id !== item.id);
+                  console.log(filted);
+                  setData(filted);
+                }}
+              />
+            );
+          })}
+        </tbody>
       </table>
     </div>
   );
