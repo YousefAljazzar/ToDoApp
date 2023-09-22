@@ -1,0 +1,13 @@
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.input-card ::placeholder {
+  color: #897373;
+}

@@ -1,0 +1,22 @@
+.todo-card {
+  margin-top: 20px;
+  align-items: start !important;
+}
+.todo-card h2 {
+  text-align: left;
+}
+table {
+  width: 100%;
+  border: 1px solid ;
+}
+
+table tr {
+  text-align: center;
+}
+table th {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}

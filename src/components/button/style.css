@@ -1,0 +1,14 @@
+.btn {
+  padding: 5px 30px;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bg-red {
+  background: red;
+}
+.bg-green {
+  background: green;
+}
